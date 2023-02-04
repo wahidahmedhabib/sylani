@@ -1,0 +1,55 @@
+@media (max-width : 550px) {
+    *{
+        /* margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden; */
+    }
+    body{
+        box-sizing: border-box;
+        /* overflow: hidden; */
+        background: #a88888;
+        margin: 0;
+        padding: 0;
+    }    
+    .nav_bar {
+        color: white;
+        /* background: rgb(59, 56, 56); */
+        /* border-bottom: 2px solid rgb(41, 43, 53); */
+        background: rgb(46, 45, 58);
+    
+        background: rgb(247, 101, 101);
+        height: 10vh;
+        width: 100vw;
+        /* margin: 0 auto; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 0 35px; */
+        padding-right: 40px;
+        /* padding-right:20px; */
+    }
+    .logo {
+        background: rgb(202, 193, 193);
+        width: 32vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+     .fa-bars-staggered{
+        visibility: visible;
+
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    .menu {
+        display: none;
+    
+    }
+    .nav_icon  {
+        visibility: hidden;
+    }
+}

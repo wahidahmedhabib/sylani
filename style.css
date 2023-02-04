@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background: #000; */
+
+}
+body{
+    background: rgb(82, 78, 78);
+
+    background-color: #363543;
+    /* background: rgba(54,53,67,255); */
+}
+
+.nav_bar {
+    color: white;
+    /* background: rgb(59, 56, 56); */
+    /* border-bottom: 2px solid rgb(41, 43, 53); */
+    background: rgb(46, 45, 58);
+
+
+    /* background: rgb(247, 101, 101); */
+    height: 10vh;
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding: 0 35px; */
+    /* padding-right:20px; */
+}
+
+.logo {
+    /* background: rgb(202, 193, 193); */
+    width: 20vw;
+    display: flex;
+    /* justify-content: center; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    width: 45vw;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.menu ul {
+
+    /* background: rgb(149, 240, 131); */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.menu ul li {
+    margin-left: 30px;
+    list-style: none;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.nav_icon {
+    
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 30px; */
+
+    /* background: rgb(170, 238, 229); */
+}
+
+.nav_icon a {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    /* font-style: none; */
+    font-size: 20px;
+}
+
+.main{
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+    /* background: rgb(24, 236, 226); */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.main_text1{
+    width: 30vw;
+    /* background: rgb(182, 139, 139); */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.main_text1_l1{
+    font-size: 50px;
+    color: rgb(131, 124, 124);
+
+}
+.main_text1_h1{
+    width: 50vw;
+    /* background: rgb(206, 133, 133); */
+    font-size: 70px;
+    word-spacing: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 30px 0 ;
+    position: relative;
+    z-index: 2;
+    color: white;
+
+    /* margin-left: 30px; */
+}
+.main_text1_para{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+    
+    /* display: flex;
+    align-items: center; */
+
+}
+
+
+
+.pic{
+    /* height: 300px; */
+    width: 40vw;
+    /* background: rgb(30, 255, 0); */
+    position: relative;
+    z-index: 01;
+    border-radius: 50%;
+    background: #2b2b37;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.pic img{
+    height: 500px;
+    width: 450px;
+}
+.main_text2{
+    width: 35vw;
+    margin-left: -60px;
+
+    /* background: rgb(124, 124, 91); */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 3;
+    
+    
+}
+.main_text2_l1{
+    font-size: 30px;
+    margin: 50px 0;
+    margin-bottom: 10px;
+    color: white;
+
+}
+.main_text2_para{
+    font-size: 22px;
+    /* margin-top: -15px; */
+    color: white;
+    line-height: 30px;
+    /* margin-bottom: 20px; */
+
+}
+.main_text2_btn{
+    
+    color:  rgb(223, 204, 36);
+    /* color: rgb(121, 221, 28); */
+    margin: 30px 0;
+
+}
+.main_text2_icons ul{
+    display: flex;
+}
+.main_text2_icons ul li{
+    margin-right: 20px;
+    list-style:none ;
+    color:  rgb(223, 204, 36);
+}
+
+.btn_bar{
+    height: 18vh;
+    width: 90vw;
+    margin: 0 auto;
+    /* margin-top: -30px; */
+    /* background: rgb(71, 70, 70); */
+    background: rgb(46, 45, 59);
+
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.meta , .google , .linkedin , .slack{ 
+    height: 10vh;
+    width: 15vw;
+    background: rgb(68, 61, 61);
+    background: rgb(35, 34, 43);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+} 
+.meta img{
+    color: #fff;
+    height: 9vh;
+    width: 12;
+}
+.page22{
+    height: 90vh;
+    /* width: 100vw; */
+    color: white;
+    margin-top: -10vh;
+    padding-top: 12vh;
+    position: relative;
+    z-index: 0;
+    /* background: #504a4a; */
+    background: rgb(33, 32, 43);
+
+}
+.page2{
+    height: 80vh;
+    width: 90vw;
+    /* background: #000; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.page2_box1{
+    width: 35vw;
+    /* height: 90vh; */
+    /* background: #e45252; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.box1_h1{
+    font-size: 1.8em;
+    font-weight: bold;
+    /* background: #468f4c; */
+}
+.box1_p1{
+    /* background: #150949; */
+    font-size: 1.2em;
+    margin: 30px 0;
+}
+.box1_div4{
+    height: 25vh;
+    /* background: #09383b; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.div1 , .div2{
+    width: 50%;
+    /* background: #00ff00; */
+    /* margin: 15px 0; */
+    /* padding-bottom: 15px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.num{
+    color: #dd4600;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.para{
+    /* background: #ff0f0f; */
+    font-size: 1.2em;
+    /* margin-bottom: 60px 0; */
+
+}
+.page2_cards{
+    width: 35vw;
+    /* background: #be7474; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card1 , .card2 , .card3{
+    height: 15vh;
+    /* width: 40vw; */
+    /* margin-top: 10px; */
+    padding: 10px;
+    border-bottom: 2px solid ;
+    /* background: #00ff00; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card1_pic , .card2_pic ,.card3_pic{
+    height: 12vh;
+    width: 20%;
+    background: #000;
+    margin-right: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.card1_pic{
+    background-image: url("images/p4.jpg");
+}
+.card2_pic{
+    background-image: url("images/p3.jpg");
+}
+.card3_pic{
+    background-image: url("images/p5.jpg");
+}
+.card1_txt ,.card2_txt , .card3_txt {
+    margin-left: -100px;
+}
+
+.card_icon{
+    color:rgb(182, 103, 0) ;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
